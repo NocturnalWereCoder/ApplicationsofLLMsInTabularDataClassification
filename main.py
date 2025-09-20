@@ -18,20 +18,14 @@ from knn import knn_predict_skl
 from rag import LangChainOllamaRAGClassifier
 from hybrid import HybridClassifier
 from xgboost_classifier import XGBoostClassifierWrapper
-from random_context import RandomContextClassifier
 from catboost_classifier import CatBoostClassifierWrapper
 from random_forest_classifier import RandomForestClassifierWrapper
-from quantile_binned_fewshot_tabular_llm_classifier import (
-    QuantileBinnedFewShotTabularLLMClassifier
-)
-from stacked_score_llm_classifier import StackedScoreLLMClassifier
 from meta_selector_llm_classifier import MetaSelectorLLMClassifier
 
 from nsp_classifier import NSPClassifier
 from fsp_classifier import FSPClassifier
 from lr import lr_predict_skl
 from hgb import hgb_predict_skl
-from llm_guided_hpo_classifier import LLMGuidedHPOClassifier
 
 
 
@@ -218,23 +212,6 @@ def main():
                         )
                     except ImportError:
                         preds = lr_predict_skl(X_tr, y_tr, X_te)
-                elif method == 'LLMGuidedHPO':
-                    clf = LLMGuidedHPOClassifier(
-                        schema_sample_n=100,
-                        max_parse_attempts=3,
-                        cv_folds=3,
-                        row_cap=50000,
-                        n_iter_per_family=40,
-                        random_state=42,
-                        n_jobs=-1,
-                        calibrate=True,
-                        verbose=1
-                    )
-                    # pass metadata dict read from your dataset's *_metadata.json
-                    clf.fit(X_tr, y_tr, metadata=meta)   # <-- IMPORTANT: give it full metadata
-                    preds = clf.predict(X_te)
-                    model_obj = clf
-
 
                 elif method == 'HGB':
                     try:
