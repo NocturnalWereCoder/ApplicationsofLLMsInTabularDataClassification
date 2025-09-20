@@ -1,0 +1,174 @@
+2025-01-11 12:29:57 - INFO - 
+=== Overall Results ===
+2025-01-11 12:29:57 - INFO - Dataset: wine
+2025-01-11 12:29:57 - INFO -   LLaMA-8b-FewShot: 0.5448
+2025-01-11 12:29:57 - INFO -   LLaMA-8b-NSamples: 0.7987
+2025-01-11 12:29:57 - INFO -   LLaMA-70b-FewShot: 0.7585
+2025-01-11 12:29:57 - INFO -   LLaMA-70b-NSamples: 0.8539
+2025-01-11 12:29:57 - INFO -   LogisticRegression: 0.9611
+2025-01-11 12:29:57 - INFO - Dataset: Credit_Card_Applications
+2025-01-11 12:29:57 - INFO -   LLaMA-8b-FewShot: 0.6140
+2025-01-11 12:29:57 - INFO -   LLaMA-8b-NSamples: 0.6280
+2025-01-11 12:29:57 - INFO -   LLaMA-70b-FewShot: 0.7480
+2025-01-11 12:29:57 - INFO -   LLaMA-70b-NSamples: 0.6940
+2025-01-11 12:29:57 - INFO -   LogisticRegression: 0.8680
+2025-01-11 12:29:57 - INFO - Dataset: diabetes_012_health_indicators_BRFSS2015
+2025-01-11 12:29:57 - INFO -   LLaMA-8b-FewShot: 0.8308
+2025-01-11 12:29:57 - INFO -   LLaMA-8b-NSamples: 0.2431
+2025-01-11 12:29:57 - INFO -   LLaMA-70b-FewShot: 0.7985
+2025-01-11 12:29:57 - INFO -   LLaMA-70b-NSamples: 0.4477
+2025-01-11 12:29:57 - INFO -   LogisticRegression: 0.8385
+2025-01-11 12:29:57 - INFO - Dataset: diabetes_binary_5050split_health_indicators_BRFSS2015
+2025-01-11 12:29:57 - INFO -   LLaMA-8b-FewShot: 0.5600
+2025-01-11 12:29:57 - INFO -   LLaMA-8b-NSamples: 0.6120
+2025-01-11 12:29:57 - INFO -   LLaMA-70b-FewShot: 0.6660
+2025-01-11 12:29:57 - INFO -   LLaMA-70b-NSamples: 0.6220
+2025-01-11 12:29:57 - INFO -   LogisticRegression: 0.7260
+2025-01-11 12:29:57 - INFO - Dataset: diabetes_binary_health_indicators_BRFSS2015
+2025-01-11 12:29:57 - INFO -   LLaMA-8b-FewShot: 0.8460
+2025-01-11 12:29:57 - INFO -   LLaMA-8b-NSamples: 0.5700
+2025-01-11 12:29:57 - INFO -   LLaMA-70b-FewShot: 0.7520
+2025-01-11 12:29:57 - INFO -   LLaMA-70b-NSamples: 0.5200
+2025-01-11 12:29:57 - INFO -   LogisticRegression: 0.8620
+2025-01-11 12:29:57 - INFO - === Total Time for All Datasets: 152721.58 seconds ===
+2025-01-11 12:29:57 - INFO - === End of Testing ===
+2025-01-12 12:05:35 - INFO - 
+=== Overall Results ===
+2025-01-12 12:05:35 - INFO - Dataset: Telco-Customer-Churn_hotencoded_missingto0
+2025-01-12 12:05:35 - INFO -   LLaMA-8b-FewShot: 0.5900
+2025-01-12 12:05:35 - INFO -   LLaMA-8b-NSamples: 0.6440
+2025-01-12 12:05:35 - INFO -   LLaMA-70b-FewShot: 0.6580
+2025-01-12 12:05:35 - INFO -   LLaMA-70b-NSamples: 0.6000
+2025-01-12 12:05:35 - INFO -   LogisticRegression: 0.8040
+2025-01-12 12:05:35 - INFO - Dataset: adult_hotencoded
+2025-01-12 12:05:35 - INFO -   LLaMA-8b-FewShot: 0.4040
+2025-01-12 12:05:35 - INFO -   LLaMA-8b-NSamples: 0.2400
+2025-01-12 12:05:35 - INFO -   LLaMA-70b-FewShot: 0.6980
+2025-01-12 12:05:35 - INFO -   LLaMA-70b-NSamples: 0.2980
+2025-01-12 12:05:35 - INFO -   LogisticRegression: 0.8280
+2025-01-12 12:05:35 - INFO - === Total Time for All Datasets: 82564.75 seconds ===
+2025-01-12 12:05:35 - INFO - === End of Testing ===
+2025-01-19 20:19:51 - INFO - 
+=== Overall Results ===
+2025-01-19 20:19:51 - INFO - Dataset: segment
+2025-01-19 20:19:51 - INFO -   LLaMA-8b-FewShot: 0.3160
+2025-01-19 20:19:51 - INFO -   LLaMA-8b-NSamples: 0.1440
+2025-01-19 20:19:51 - INFO -   LLaMA-70b-FewShot: 0.5040
+2025-01-19 20:19:51 - INFO -   LLaMA-70b-NSamples: 0.3420
+2025-01-19 20:19:51 - INFO -   LogisticRegression: 0.9440
+2025-01-19 20:19:51 - INFO - Dataset: sign
+2025-01-19 20:19:51 - INFO -   LLaMA-8b-FewShot: 0.3720
+2025-01-19 20:19:51 - INFO -   LLaMA-8b-NSamples: 0.4220
+2025-01-19 20:19:51 - INFO -   LLaMA-70b-FewShot: 0.3900
+2025-01-19 20:19:51 - INFO -   LLaMA-70b-NSamples: 0.4200
+2025-01-19 20:19:51 - INFO -   LogisticRegression: 0.5020
+2025-01-19 20:19:51 - INFO - Dataset: zoo
+2025-01-19 20:19:51 - INFO -   LLaMA-8b-FewShot: 0.7318
+2025-01-19 20:19:51 - INFO -   LLaMA-8b-NSamples: 0.8327
+2025-01-19 20:19:51 - INFO -   LLaMA-70b-FewShot: 0.7618
+2025-01-19 20:19:51 - INFO -   LLaMA-70b-NSamples: 0.9209
+2025-01-19 20:19:51 - INFO -   LogisticRegression: 0.9500
+2025-01-19 20:19:51 - INFO - Dataset: sick_hotencoded
+2025-01-19 20:19:51 - INFO -   LLaMA-8b-FewShot: 0.9320
+2025-01-19 20:19:51 - INFO -   LLaMA-8b-NSamples: 0.7340
+2025-01-19 20:19:51 - INFO -   LLaMA-70b-FewShot: 0.8520
+2025-01-19 20:19:51 - INFO -   LLaMA-70b-NSamples: 0.7640
+2025-01-19 20:19:51 - INFO -   LogisticRegression: 0.9560
+2025-01-19 20:19:51 - INFO - Dataset: letter-recog
+2025-01-19 20:19:51 - INFO -   LLaMA-8b-FewShot: 0.0520
+2025-01-19 20:19:51 - INFO -   LLaMA-8b-NSamples: 0.0500
+2025-01-19 20:19:51 - INFO -   LLaMA-70b-FewShot: 0.0520
+2025-01-19 20:19:51 - INFO -   LLaMA-70b-NSamples: 0.0860
+2025-01-19 20:19:51 - INFO -   LogisticRegression: 0.7060
+2025-01-19 20:19:51 - INFO - Dataset: localization_hotencoded
+2025-01-19 20:19:51 - INFO -   LLaMA-8b-FewShot: 0.2430
+2025-01-19 20:19:51 - INFO -   LLaMA-8b-NSamples: 0.0269
+2025-01-19 20:19:51 - INFO -   LLaMA-70b-FewShot: 0.2262
+2025-01-19 20:19:51 - INFO -   LLaMA-70b-NSamples: 0.0102
+2025-01-19 20:19:51 - INFO -   LogisticRegression: 0.3891
+2025-01-19 20:19:51 - INFO - === Total Time for All Datasets: 273616.70 seconds ===
+2025-01-19 20:19:51 - INFO - === End of Testing ===
+2025-01-23 17:38:15 - INFO - 
+=== Overall Results ===
+2025-01-23 17:38:15 - INFO - Dataset: wine
+2025-01-23 17:38:15 - INFO -   LLaMA-8b-RAG: 0.7523
+2025-01-23 17:38:15 - INFO - Dataset: zoo
+2025-01-23 17:38:15 - INFO -   LLaMA-8b-RAG: 0.5636
+2025-01-23 17:38:15 - INFO - === Total Time for All Datasets: 546.35 seconds ===
+2025-01-23 17:38:15 - INFO - === End of Testing ===
+2025-01-23 17:53:12 - INFO - 
+=== Overall Results ===
+2025-01-23 17:53:12 - INFO - Dataset: wine
+2025-01-23 17:53:12 - INFO -   LLaMA-8b-RAG: 0.7578
+2025-01-23 17:53:12 - INFO - Dataset: zoo
+2025-01-23 17:53:12 - INFO -   LLaMA-8b-RAG: 0.5436
+2025-01-23 17:53:12 - INFO - === Total Time for All Datasets: 548.53 seconds ===
+2025-01-23 17:53:12 - INFO - === End of Testing ===
+2025-01-24 16:07:46 - INFO - 
+=== Overall Results ===
+2025-01-24 16:07:46 - INFO - Dataset: adult_hotencoded
+2025-01-24 16:07:46 - INFO -   LLaMA-8b-RAG: 0.6013
+2025-01-24 16:07:46 - INFO - Dataset: diabetes_012_health_indicators_BRFSS2015
+2025-01-24 16:07:46 - INFO -   LLaMA-8b-RAG: 0.2908
+2025-01-24 16:07:46 - INFO - Dataset: diabetes_binary_5050split_health_indicators_BRFSS2015
+2025-01-24 16:07:46 - INFO -   LLaMA-8b-RAG: 0.5440
+2025-01-24 16:07:46 - INFO - Dataset: diabetes_binary_health_indicators_BRFSS2015
+2025-01-24 16:07:46 - INFO -   LLaMA-8b-RAG: 0.8620
+2025-01-24 16:07:46 - INFO - Dataset: Telco-Customer-Churn_hotencoded_missingto0
+2025-01-24 16:07:46 - INFO -   LLaMA-8b-RAG: 0.5560
+2025-01-24 16:07:46 - INFO - Dataset: pendigits
+2025-01-24 16:07:46 - INFO -   LLaMA-8b-RAG: 0.1900
+2025-01-24 16:07:46 - INFO - Dataset: satellite
+2025-01-24 16:07:46 - INFO -   LLaMA-8b-RAG: 0.4710
+2025-01-24 16:07:46 - INFO - Dataset: segment
+2025-01-24 16:07:46 - INFO -   LLaMA-8b-RAG: 0.2860
+2025-01-24 16:07:46 - INFO - Dataset: sign
+2025-01-24 16:07:46 - INFO -   LLaMA-8b-RAG: 0.4060
+2025-01-24 16:07:46 - INFO - Dataset: zoo
+2025-01-24 16:07:46 - INFO -   LLaMA-8b-RAG: 0.5536
+2025-01-24 16:07:46 - INFO - Dataset: sick_hotencoded
+2025-01-24 16:07:46 - INFO -   LLaMA-8b-RAG: 0.9360
+2025-01-24 16:07:46 - INFO - Dataset: letter-recog
+2025-01-24 16:07:46 - INFO -   LLaMA-8b-RAG: 0.0540
+2025-01-24 16:07:46 - INFO - === Total Time for All Datasets: 22193.54 seconds ===
+2025-01-24 16:07:46 - INFO - === End of Testing ===
+2025-02-03 18:40:18 - INFO - 
+=== Overall Results ===
+2025-02-03 18:40:18 - INFO - Dataset: localization_hotencoded
+2025-02-03 18:40:18 - INFO -   LLaMA-8b-RAG: 0.1549
+2025-02-03 18:40:18 - INFO - === Total Time for All Datasets: 3748.63 seconds ===
+2025-02-03 18:40:18 - INFO - === End of Testing ===
+2025-02-07 22:41:07 - INFO - 
+=== Overall Results ===
+2025-02-07 22:41:07 - INFO - Dataset: localization_hotencoded
+2025-02-07 22:41:07 - INFO -   LLaMA-70b-RAG: 0.1767
+2025-02-07 22:41:07 - INFO - === Total Time for All Datasets: 43997.63 seconds ===
+2025-02-07 22:41:07 - INFO - === End of Testing ===
+2025-02-21 17:52:40 - INFO - 
+=== Overall Results ===
+2025-02-21 17:52:40 - INFO - Dataset: donation_missingto0
+2025-02-21 17:52:40 - INFO -   LLaMA-8b-FewShot: 0.9959
+2025-02-21 17:52:40 - INFO -   LLaMA-8b-RAG: 0.9931
+2025-02-21 17:52:40 - INFO -   LLaMA-8b-NSamples: 0.8569
+2025-02-21 17:52:40 - INFO -   LLaMA-70b-FewShot: 0.9952
+2025-02-21 17:52:40 - INFO -   LLaMA-70b-NSamples: 0.9097
+2025-02-21 17:52:40 - INFO -   LLaMA-70b-RAG: 0.9897
+2025-02-21 17:52:40 - INFO -   LogisticRegression: 0.9997
+2025-02-21 17:52:40 - INFO - Dataset: waveform
+2025-02-21 17:52:40 - INFO -   LLaMA-8b-FewShot: 0.3600
+2025-02-21 17:52:40 - INFO -   LLaMA-8b-RAG: 0.4340
+2025-02-21 17:52:40 - INFO -   LLaMA-8b-NSamples: 0.4880
+2025-02-21 17:52:40 - INFO -   LLaMA-70b-FewShot: 0.6620
+2025-02-21 17:52:40 - INFO -   LLaMA-70b-NSamples: 0.6220
+2025-02-21 17:52:40 - INFO -   LLaMA-70b-RAG: 0.5740
+2025-02-21 17:52:40 - INFO -   LogisticRegression: 0.9640
+2025-02-21 17:52:40 - INFO - Dataset: WearableComputing_hotencoded
+2025-02-21 17:52:40 - INFO -   LLaMA-8b-FewShot: 0.3640
+2025-02-21 17:52:40 - INFO -   LLaMA-8b-RAG: 0.4040
+2025-02-21 17:52:40 - INFO -   LLaMA-8b-NSamples: 0.2300
+2025-02-21 17:52:40 - INFO -   LLaMA-70b-FewShot: 0.5420
+2025-02-21 17:52:40 - INFO -   LLaMA-70b-NSamples: 0.2020
+2025-02-21 17:52:40 - INFO -   LLaMA-70b-RAG: 0.4080
+2025-02-21 17:52:40 - INFO -   LogisticRegression: 0.7660
+2025-02-21 17:52:40 - INFO - === Total Time for All Datasets: 279021.48 seconds ===
+2025-02-21 17:52:40 - INFO - === End of Testing ===

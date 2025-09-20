@@ -1,0 +1,20 @@
+2025-04-13 23:08:29 - INFO - 
+=== Testing Dataset: bank-full_hotencoded ===
+2025-04-13 23:08:29 - INFO - Loaded data from Datasets/bank-full_hotencoded/bank-full_hotencoded.csv and Datasets/bank-full_hotencoded/bank-full_hotencoded_metadata.json. Target column index: 42
+2025-04-13 23:08:29 - INFO - === Results for bank-full_hotencoded ===
+2025-04-13 23:08:29 - INFO - Total Time for bank-full_hotencoded: 0.07 seconds
+2025-04-13 23:08:29 - INFO - === End of Cross-Validation for bank-full_hotencoded ===
+
+2025-04-13 23:08:32 - INFO - === Starting Cross-Validation for bank-full_hotencoded ===
+2025-04-13 23:08:32 - INFO - === Starting Fold 1/3 ===
+2025-04-13 23:08:32 - INFO - --- Training LLaMA-8b-RAG ---
+2025-04-27 02:47:37 - INFO - 
+=== Testing Dataset: bank-full_hotencoded ===
+2025-04-27 02:47:37 - INFO - Loaded data from Datasets/bank-full_hotencoded/bank-full_hotencoded.csv and Datasets/bank-full_hotencoded/bank-full_hotencoded_metadata.json. Target column index: 42
+2025-04-27 02:47:37 - INFO - === Results for bank-full_hotencoded ===
+2025-04-27 02:47:37 - INFO - Total Time for bank-full_hotencoded: 0.07 seconds
+2025-04-27 02:47:37 - INFO - === End of Cross-Validation for bank-full_hotencoded ===
+
+2025-04-27 02:47:40 - INFO - === Starting Cross-Validation for bank-full_hotencoded ===
+2025-04-27 02:47:40 - INFO - === Starting Fold 1/3 ===
+2025-04-27 02:47:40 - INFO - --- Training LLaMA-8b-RAG ---

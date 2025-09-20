@@ -1,0 +1,193 @@
+2025-01-09 18:04:36 - INFO - 
+=== Testing Dataset: wine ===
+2025-01-09 18:04:36 - INFO - Loaded data from Datasets/wine/wine.csv and Datasets/wine/wine_metadata.json. Target column index: 0
+2025-01-09 18:04:36 - INFO - === Starting Cross-Validation for wine ===
+2025-01-09 18:04:36 - INFO - === Starting Fold 1/10 ===
+2025-01-09 18:04:36 - INFO - --- Training LLaMA-8b-FewShot ---
+2025-01-09 18:04:36 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 18:05:11 - INFO - LLaMA-8b-FewShot Fold 1 Accuracy: 0.5000
+2025-01-09 18:05:11 - INFO - --- Training LLaMA-8b-NSamples ---
+2025-01-09 18:05:11 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 18:05:43 - INFO - LLaMA-8b-NSamples Fold 1 Accuracy: 0.7778
+2025-01-09 18:05:43 - INFO - --- Training LLaMA-70b-FewShot ---
+2025-01-09 18:05:43 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 18:15:30 - INFO - LLaMA-70b-FewShot Fold 1 Accuracy: 0.6667
+2025-01-09 18:15:30 - INFO - --- Training LLaMA-70b-NSamples ---
+2025-01-09 18:15:30 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 18:25:56 - INFO - LLaMA-70b-NSamples Fold 1 Accuracy: 0.8333
+2025-01-09 18:25:56 - INFO - --- Training LogisticRegression ---
+2025-01-09 18:25:56 - INFO - LogisticRegression Fold 1 Accuracy: 1.0000
+2025-01-09 18:25:56 - INFO - === Completed Fold 1/10 ===
+2025-01-09 18:25:56 - INFO - Fold 1 Duration: 1280.37 seconds
+
+2025-01-09 18:25:56 - INFO - === Starting Fold 2/10 ===
+2025-01-09 18:25:56 - INFO - --- Training LLaMA-8b-FewShot ---
+2025-01-09 18:25:56 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 18:26:41 - INFO - LLaMA-8b-FewShot Fold 2 Accuracy: 0.5556
+2025-01-09 18:26:41 - INFO - --- Training LLaMA-8b-NSamples ---
+2025-01-09 18:26:41 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 18:27:08 - INFO - LLaMA-8b-NSamples Fold 2 Accuracy: 0.6667
+2025-01-09 18:27:08 - INFO - --- Training LLaMA-70b-FewShot ---
+2025-01-09 18:27:08 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 18:37:11 - INFO - LLaMA-70b-FewShot Fold 2 Accuracy: 0.7778
+2025-01-09 18:37:11 - INFO - --- Training LLaMA-70b-NSamples ---
+2025-01-09 18:37:11 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 18:46:44 - INFO - LLaMA-70b-NSamples Fold 2 Accuracy: 0.8333
+2025-01-09 18:46:44 - INFO - --- Training LogisticRegression ---
+2025-01-09 18:46:44 - INFO - LogisticRegression Fold 2 Accuracy: 0.8889
+2025-01-09 18:46:44 - INFO - === Completed Fold 2/10 ===
+2025-01-09 18:46:44 - INFO - Fold 2 Duration: 1247.62 seconds
+
+2025-01-09 18:46:44 - INFO - === Starting Fold 3/10 ===
+2025-01-09 18:46:44 - INFO - --- Training LLaMA-8b-FewShot ---
+2025-01-09 18:46:44 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 18:47:26 - INFO - LLaMA-8b-FewShot Fold 3 Accuracy: 0.5556
+2025-01-09 18:47:26 - INFO - --- Training LLaMA-8b-NSamples ---
+2025-01-09 18:47:26 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 18:47:54 - INFO - LLaMA-8b-NSamples Fold 3 Accuracy: 0.7222
+2025-01-09 18:47:54 - INFO - --- Training LLaMA-70b-FewShot ---
+2025-01-09 18:47:54 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 18:59:22 - INFO - LLaMA-70b-FewShot Fold 3 Accuracy: 0.8889
+2025-01-09 18:59:22 - INFO - --- Training LLaMA-70b-NSamples ---
+2025-01-09 18:59:22 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 19:09:02 - INFO - LLaMA-70b-NSamples Fold 3 Accuracy: 0.8333
+2025-01-09 19:09:02 - INFO - --- Training LogisticRegression ---
+2025-01-09 19:09:02 - INFO - LogisticRegression Fold 3 Accuracy: 1.0000
+2025-01-09 19:09:02 - INFO - === Completed Fold 3/10 ===
+2025-01-09 19:09:02 - INFO - Fold 3 Duration: 1338.09 seconds
+
+2025-01-09 19:09:02 - INFO - === Starting Fold 4/10 ===
+2025-01-09 19:09:02 - INFO - --- Training LLaMA-8b-FewShot ---
+2025-01-09 19:09:02 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 19:09:37 - INFO - LLaMA-8b-FewShot Fold 4 Accuracy: 0.5000
+2025-01-09 19:09:37 - INFO - --- Training LLaMA-8b-NSamples ---
+2025-01-09 19:09:37 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 19:10:05 - INFO - LLaMA-8b-NSamples Fold 4 Accuracy: 0.8333
+2025-01-09 19:10:05 - INFO - --- Training LLaMA-70b-FewShot ---
+2025-01-09 19:10:05 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 19:20:51 - INFO - LLaMA-70b-FewShot Fold 4 Accuracy: 0.7222
+2025-01-09 19:20:51 - INFO - --- Training LLaMA-70b-NSamples ---
+2025-01-09 19:20:51 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 19:29:59 - INFO - LLaMA-70b-NSamples Fold 4 Accuracy: 0.8333
+2025-01-09 19:29:59 - INFO - --- Training LogisticRegression ---
+2025-01-09 19:30:00 - INFO - LogisticRegression Fold 4 Accuracy: 0.9444
+2025-01-09 19:30:00 - INFO - === Completed Fold 4/10 ===
+2025-01-09 19:30:00 - INFO - Fold 4 Duration: 1257.69 seconds
+
+2025-01-09 19:30:00 - INFO - === Starting Fold 5/10 ===
+2025-01-09 19:30:00 - INFO - --- Training LLaMA-8b-FewShot ---
+2025-01-09 19:30:00 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 19:30:36 - INFO - LLaMA-8b-FewShot Fold 5 Accuracy: 0.5000
+2025-01-09 19:30:36 - INFO - --- Training LLaMA-8b-NSamples ---
+2025-01-09 19:30:36 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 19:31:05 - INFO - LLaMA-8b-NSamples Fold 5 Accuracy: 0.7778
+2025-01-09 19:31:05 - INFO - --- Training LLaMA-70b-FewShot ---
+2025-01-09 19:31:05 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 19:40:25 - INFO - LLaMA-70b-FewShot Fold 5 Accuracy: 0.8889
+2025-01-09 19:40:25 - INFO - --- Training LLaMA-70b-NSamples ---
+2025-01-09 19:40:25 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 19:50:21 - INFO - LLaMA-70b-NSamples Fold 5 Accuracy: 0.8889
+2025-01-09 19:50:21 - INFO - --- Training LogisticRegression ---
+2025-01-09 19:50:22 - INFO - LogisticRegression Fold 5 Accuracy: 0.9444
+2025-01-09 19:50:22 - INFO - === Completed Fold 5/10 ===
+2025-01-09 19:50:22 - INFO - Fold 5 Duration: 1221.95 seconds
+
+2025-01-09 19:50:22 - INFO - === Starting Fold 6/10 ===
+2025-01-09 19:50:22 - INFO - --- Training LLaMA-8b-FewShot ---
+2025-01-09 19:50:22 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 19:50:59 - INFO - LLaMA-8b-FewShot Fold 6 Accuracy: 0.6111
+2025-01-09 19:50:59 - INFO - --- Training LLaMA-8b-NSamples ---
+2025-01-09 19:50:59 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 19:51:30 - INFO - LLaMA-8b-NSamples Fold 6 Accuracy: 0.7778
+2025-01-09 19:51:30 - INFO - --- Training LLaMA-70b-FewShot ---
+2025-01-09 19:51:30 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 20:01:05 - INFO - LLaMA-70b-FewShot Fold 6 Accuracy: 0.7778
+2025-01-09 20:01:05 - INFO - --- Training LLaMA-70b-NSamples ---
+2025-01-09 20:01:05 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 20:10:15 - INFO - LLaMA-70b-NSamples Fold 6 Accuracy: 0.8889
+2025-01-09 20:10:15 - INFO - --- Training LogisticRegression ---
+2025-01-09 20:10:15 - INFO - LogisticRegression Fold 6 Accuracy: 0.9444
+2025-01-09 20:10:15 - INFO - === Completed Fold 6/10 ===
+2025-01-09 20:10:15 - INFO - Fold 6 Duration: 1193.46 seconds
+
+2025-01-09 20:10:15 - INFO - === Starting Fold 7/10 ===
+2025-01-09 20:10:15 - INFO - --- Training LLaMA-8b-FewShot ---
+2025-01-09 20:10:15 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 20:10:52 - INFO - LLaMA-8b-FewShot Fold 7 Accuracy: 0.6111
+2025-01-09 20:10:52 - INFO - --- Training LLaMA-8b-NSamples ---
+2025-01-09 20:10:52 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 20:11:24 - INFO - LLaMA-8b-NSamples Fold 7 Accuracy: 0.8333
+2025-01-09 20:11:24 - INFO - --- Training LLaMA-70b-FewShot ---
+2025-01-09 20:11:24 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 20:19:32 - INFO - LLaMA-70b-FewShot Fold 7 Accuracy: 0.6667
+2025-01-09 20:19:32 - INFO - --- Training LLaMA-70b-NSamples ---
+2025-01-09 20:19:32 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 20:28:51 - INFO - LLaMA-70b-NSamples Fold 7 Accuracy: 0.8333
+2025-01-09 20:28:51 - INFO - --- Training LogisticRegression ---
+2025-01-09 20:28:51 - INFO - LogisticRegression Fold 7 Accuracy: 1.0000
+2025-01-09 20:28:51 - INFO - === Completed Fold 7/10 ===
+2025-01-09 20:28:51 - INFO - Fold 7 Duration: 1115.72 seconds
+
+2025-01-09 20:28:51 - INFO - === Starting Fold 8/10 ===
+2025-01-09 20:28:51 - INFO - --- Training LLaMA-8b-FewShot ---
+2025-01-09 20:28:51 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 20:29:26 - INFO - LLaMA-8b-FewShot Fold 8 Accuracy: 0.5556
+2025-01-09 20:29:26 - INFO - --- Training LLaMA-8b-NSamples ---
+2025-01-09 20:29:26 - INFO - Fitted model llama3.1 with 160 training examples.
+2025-01-09 20:29:57 - INFO - LLaMA-8b-NSamples Fold 8 Accuracy: 0.8333
+2025-01-09 20:29:57 - INFO - --- Training LLaMA-70b-FewShot ---
+2025-01-09 20:29:57 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 20:39:17 - INFO - LLaMA-70b-FewShot Fold 8 Accuracy: 0.6667
+2025-01-09 20:39:17 - INFO - --- Training LLaMA-70b-NSamples ---
+2025-01-09 20:39:17 - INFO - Fitted model llama3.1:70b with 160 training examples.
+2025-01-09 20:48:41 - INFO - LLaMA-70b-NSamples Fold 8 Accuracy: 0.8889
+2025-01-09 20:48:41 - INFO - --- Training LogisticRegression ---
+2025-01-09 20:48:42 - INFO - LogisticRegression Fold 8 Accuracy: 0.8889
+2025-01-09 20:48:42 - INFO - === Completed Fold 8/10 ===
+2025-01-09 20:48:42 - INFO - Fold 8 Duration: 1190.96 seconds
+
+2025-01-09 20:48:42 - INFO - === Starting Fold 9/10 ===
+2025-01-09 20:48:42 - INFO - --- Training LLaMA-8b-FewShot ---
+2025-01-09 20:48:42 - INFO - Fitted model llama3.1 with 161 training examples.
+2025-01-09 20:49:20 - INFO - LLaMA-8b-FewShot Fold 9 Accuracy: 0.5882
+2025-01-09 20:49:20 - INFO - --- Training LLaMA-8b-NSamples ---
+2025-01-09 20:49:20 - INFO - Fitted model llama3.1 with 161 training examples.
+2025-01-09 20:49:48 - INFO - LLaMA-8b-NSamples Fold 9 Accuracy: 0.8824
+2025-01-09 20:49:48 - INFO - --- Training LLaMA-70b-FewShot ---
+2025-01-09 20:49:48 - INFO - Fitted model llama3.1:70b with 161 training examples.
+2025-01-09 20:58:58 - INFO - LLaMA-70b-FewShot Fold 9 Accuracy: 0.7059
+2025-01-09 20:58:58 - INFO - --- Training LLaMA-70b-NSamples ---
+2025-01-09 20:58:58 - INFO - Fitted model llama3.1:70b with 161 training examples.
+2025-01-09 21:07:38 - INFO - LLaMA-70b-NSamples Fold 9 Accuracy: 0.8235
+2025-01-09 21:07:38 - INFO - --- Training LogisticRegression ---
+2025-01-09 21:07:38 - INFO - LogisticRegression Fold 9 Accuracy: 1.0000
+2025-01-09 21:07:38 - INFO - === Completed Fold 9/10 ===
+2025-01-09 21:07:38 - INFO - Fold 9 Duration: 1136.32 seconds
+
+2025-01-09 21:07:38 - INFO - === Starting Fold 10/10 ===
+2025-01-09 21:07:38 - INFO - --- Training LLaMA-8b-FewShot ---
+2025-01-09 21:07:38 - INFO - Fitted model llama3.1 with 161 training examples.
+2025-01-09 21:08:12 - INFO - LLaMA-8b-FewShot Fold 10 Accuracy: 0.4706
+2025-01-09 21:08:12 - INFO - --- Training LLaMA-8b-NSamples ---
+2025-01-09 21:08:12 - INFO - Fitted model llama3.1 with 161 training examples.
+2025-01-09 21:08:44 - INFO - LLaMA-8b-NSamples Fold 10 Accuracy: 0.8824
+2025-01-09 21:08:44 - INFO - --- Training LLaMA-70b-FewShot ---
+2025-01-09 21:08:44 - INFO - Fitted model llama3.1:70b with 161 training examples.
+2025-01-09 21:18:16 - INFO - LLaMA-70b-FewShot Fold 10 Accuracy: 0.8235
+2025-01-09 21:18:16 - INFO - --- Training LLaMA-70b-NSamples ---
+2025-01-09 21:18:16 - INFO - Fitted model llama3.1:70b with 161 training examples.
+2025-01-09 21:26:53 - INFO - LLaMA-70b-NSamples Fold 10 Accuracy: 0.8824
+2025-01-09 21:26:53 - INFO - --- Training LogisticRegression ---
+2025-01-09 21:26:53 - INFO - LogisticRegression Fold 10 Accuracy: 1.0000
+2025-01-09 21:26:53 - INFO - === Completed Fold 10/10 ===
+2025-01-09 21:26:53 - INFO - Fold 10 Duration: 1154.98 seconds
+
+2025-01-09 21:26:53 - INFO - === Results for wine ===
+2025-01-09 21:26:53 - INFO - LLaMA-8b-FewShot Mean Accuracy: 0.5448
+2025-01-09 21:26:53 - INFO - LLaMA-8b-NSamples Mean Accuracy: 0.7987
+2025-01-09 21:26:53 - INFO - LLaMA-70b-FewShot Mean Accuracy: 0.7585
+2025-01-09 21:26:53 - INFO - LLaMA-70b-NSamples Mean Accuracy: 0.8539
+2025-01-09 21:26:53 - INFO - LogisticRegression Mean Accuracy: 0.9611
+2025-01-09 21:26:53 - INFO - Total Time for wine: 12137.24 seconds
+2025-01-09 21:26:53 - INFO - === End of Cross-Validation for wine ===
+

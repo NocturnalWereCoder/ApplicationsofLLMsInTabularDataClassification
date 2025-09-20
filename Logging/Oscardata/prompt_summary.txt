@@ -1,0 +1,14 @@
+========== PROMPT SUMMARY ==========
+Detailed log file : Log_Testing_withMax500_and_10fold_wine.jsonl
+General log file  : Log_Testing_withMax500_and_10fold_wine.log
+
+Total Prompts Issued     : 0
+Total Responses Received : 0
+Total Predictions Made   : 712
+  ├── Correct Predictions : 526
+  ├── Incorrect Predictions: 186
+  └── Parsing Failures    : 0
+Parsing Failure Rate    : 0.00%
+
+Other Events Logged     : {'prompt': 712, 'response': 712, 'prediction_accuracy': 712, 'cross_validation_accuracy': 50}
+=====================================

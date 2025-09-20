@@ -1,0 +1,22 @@
+========== PARSE & PREDICTION SUMMARY ==========
+Detailed log file (.jsonl) : Log_Testing_withMax500_and_10fold_student-portuguese_hotencoded_50PassFail.jsonl
+General log file  (.log)   : Log_Testing_withMax500_and_10fold_student-portuguese_hotencoded_50PassFail.log
+
+---- From Detailed JSONL ----
+Total Prompts Issued     : 200
+Total Responses Received : 200
+Total Predictions Made   : 200
+  ├── Correct Predictions : 170
+  ├── Incorrect Predictions: 30
+  └── Parsing Failures    : 0
+Parsing Failure Rate     : 0.00%
+Other Events Logged      : {'prompt': 200, 'response': 200, 'prediction_accuracy': 200, 'cross_validation_accuracy': 6}
+
+---- From General LOG ----
+Successful Parses (Accuracy reported): 8
+Parsing Failures (logged)            : 0
+Success Rate                         : 100.00%
+Accuracies Captured                  : [0.8529, 0.8529, 0.8485, 0.8485, 0.8485, 0.8485, 0.85, 0.85]
+Mean Accuracy                        : 0.8500
+
+===============================================

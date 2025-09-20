@@ -1,0 +1,5 @@
+# heavy DB/cache artifacts
+chroma_db/
+databases/**/chroma.sqlite3
+databases/**/*.bin
+venv/

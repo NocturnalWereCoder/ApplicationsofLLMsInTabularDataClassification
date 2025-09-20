@@ -1,0 +1,34 @@
+2025-04-08 16:29:24 - INFO - 
+=== Testing Dataset: student-portuguese_hotencoded_50PassFail ===
+2025-04-08 16:29:24 - INFO - Loaded data from Datasets/student-portuguese_hotencoded_50PassFail/student-portuguese_hotencoded_50PassFail.csv and Datasets/student-portuguese_hotencoded_50PassFail/student-portuguese_hotencoded_50PassFail_metadata.json. Target column index: 15
+2025-04-08 16:29:24 - INFO - Downsampled student-portuguese_hotencoded_50PassFail to 23 rows. Class distribution: {1: 19, 0: 4}
+2025-04-08 16:29:27 - INFO - === Starting Cross-Validation for student-portuguese_hotencoded_50PassFail ===
+2025-04-08 16:29:27 - INFO - === Starting Fold 1/2 ===
+2025-04-08 16:29:27 - INFO - --- Training LLaMA-8b-RAG ---
+2025-04-08 16:29:29 - INFO - Built vectorstore with 11 training examples.
+2025-04-08 16:29:45 - INFO - LLaMA-8b-RAG Fold 1 Accuracy: 0.7500
+2025-04-08 16:29:45 - INFO - --- Training LLaMA-70b-RAG ---
+2025-04-08 16:29:46 - INFO - Built vectorstore with 11 training examples.
+2025-04-08 16:33:44 - INFO - LLaMA-70b-RAG Fold 1 Accuracy: 0.8333
+2025-04-08 16:33:44 - INFO - === Completed Fold 1/2 - Duration: 256.88 seconds ===
+2025-04-08 16:33:44 - INFO - === Starting Fold 2/2 ===
+2025-04-08 16:33:44 - INFO - --- Training LLaMA-8b-RAG ---
+2025-04-08 16:33:46 - INFO - Built vectorstore with 12 training examples.
+2025-04-08 16:34:10 - INFO - LLaMA-8b-RAG Fold 2 Accuracy: 0.3636
+2025-04-08 16:34:10 - INFO - --- Training LLaMA-70b-RAG ---
+2025-04-08 16:34:13 - INFO - Built vectorstore with 12 training examples.
+2025-04-08 16:38:01 - INFO - LLaMA-70b-RAG Fold 2 Accuracy: 0.8182
+2025-04-08 16:38:01 - INFO - === Completed Fold 2/2 - Duration: 257.28 seconds ===
+2025-04-08 16:38:01 - INFO - === Results for student-portuguese_hotencoded_50PassFail ===
+2025-04-08 16:38:01 - INFO - LLaMA-8b-RAG Mean Accuracy: 0.5568
+2025-04-08 16:38:01 - INFO - LLaMA-70b-RAG Mean Accuracy: 0.8258
+2025-04-08 16:38:01 - INFO - Total Time for student-portuguese_hotencoded_50PassFail: 517.25 seconds
+2025-04-08 16:38:01 - INFO - === End of Cross-Validation for student-portuguese_hotencoded_50PassFail ===
+
+2025-04-08 17:03:51 - INFO - 
+=== Testing Dataset: student-portuguese_hotencoded_50PassFail ===
+2025-04-08 17:03:51 - INFO - Loaded data from Datasets/student-portuguese_hotencoded_50PassFail/student-portuguese_hotencoded_50PassFail.csv and Datasets/student-portuguese_hotencoded_50PassFail/student-portuguese_hotencoded_50PassFail_metadata.json. Target column index: 15
+2025-04-08 17:03:51 - INFO - Downsampled student-portuguese_hotencoded_50PassFail to 23 rows. Class distribution: {1: 19, 0: 4}
+2025-04-08 17:03:54 - INFO - === Starting Cross-Validation for student-portuguese_hotencoded_50PassFail ===
+2025-04-08 17:03:54 - INFO - === Starting Fold 1/2 ===
+2025-04-08 17:03:54 - INFO - --- Training LLaMA-8b-RAG ---
