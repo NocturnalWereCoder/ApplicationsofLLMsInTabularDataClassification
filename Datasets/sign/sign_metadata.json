@@ -1,0 +1,15 @@
+{
+    "target_column_index": 8,
+    "num_features": 8,
+    "num_samples": 12546,
+    "feature_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+    ]
+}
